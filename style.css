@@ -1,0 +1,49 @@
+/* ***reset*** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+
+/* ****base**** */
+
+body {
+  font: 400, 1rem "DM Sans", sans-serif;
+}
+
+h1 {
+  font: 700 1.0875rem "Poppins", sans-serif;
+}
+
+.button {
+}
+
+/* ****?**** */
+:root {
+}
+/* ** Layout ** */
+#header {
+  height: 4, 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+}
+
+.container {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
