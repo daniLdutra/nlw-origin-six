@@ -10,6 +10,12 @@
 
     <title>OriginSix</title>
 
+    <!--Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!--Styles-->
     <link rel="stylesheet" href="style.css" />
 
@@ -142,67 +148,70 @@
 
       <!--Testimonials-->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-                  fugiat illum laborum labore, facere quos suscipit unde
-                  cupiditate dolorum distinctio molestiae, eligendi, hic
-                  aspernatur ducimus rem. Quod laboriosam facilis porro
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/women/9.jpg"
-                    alt="Foto de Wanessa Sousa"
-                  />
-                  Wanessa Sousa
-                </cite>
-              </blockquote>
-            </div>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Iure fugiat illum laborum labore, facere quos suscipit unde
+                    cupiditate dolorum distinctio molestiae, eligendi, hic
+                    aspernatur ducimus rem. Quod laboriosam facilis porro
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/9.jpg"
+                      alt="Foto de Wanessa Sousa"
+                    />
+                    Wanessa Sousa
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-                  fugiat illum laborum labore, facere quos suscipit unde
-                  cupiditate dolorum distinctio molestiae, eligendi, hic
-                  aspernatur ducimus rem. Quod laboriosam facilis porro
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/women/3.jpg"
-                    alt="Foto de Mariana Silva"
-                  />
-                  Mariana Silva
-                </cite>
-              </blockquote>
-            </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Iure fugiat illum laborum labore, facere quos suscipit unde
+                    cupiditate dolorum distinctio molestiae, eligendi, hic
+                    aspernatur ducimus rem. Quod laboriosam facilis porro
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/3.jpg"
+                      alt="Foto de Mariana Silva"
+                    />
+                    Mariana Silva
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-                  fugiat illum laborum labore, facere quos suscipit unde
-                  cupiditate dolorum distinctio molestiae, eligendi, hic
-                  aspernatur ducimus rem. Quod laboriosam facilis porro.
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/women/62.jpg"
-                    alt="Foto de Carla Rodrigues"
-                  />
-                  Carla Rodrigues
-                </cite>
-              </blockquote>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Iure fugiat illum laborum labore, facere quos suscipit unde
+                    cupiditate dolorum distinctio molestiae, eligendi, hic
+                    aspernatur ducimus rem. Quod laboriosam facilis porro.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/62.jpg"
+                      alt="Foto de Carla Rodrigues"
+                    />
+                    Carla Rodrigues
+                  </cite>
+                </blockquote>
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -211,6 +220,10 @@
 
     <footer></footer>
 
+    <!-- Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- main.js-->
     <script src="main.js"></script>
   </body>
 </html>
